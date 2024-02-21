@@ -32,7 +32,7 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build Demo APK
-      run: ./gradlew assembleDemo
+      run: ./gradlew assembleDebug
 
     - name: Upload APK to GitHub Actions
       uses: actions/upload-artifact@v4
